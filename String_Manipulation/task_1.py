@@ -1,0 +1,10 @@
+proverb = "A picture’s worth a thousand words"
+print(f"\nproverb: {proverb}")
+proverb_image = proverb.replace("A picture’s", "An image is")
+print(f"\nproverb_image: {proverb_image}")
+first_R = proverb_image.find("r")
+print(f"\nfirst_R: {first_R}")
+proverb_upper = proverb.upper()
+print(f"\nproverb_upper: {proverb_upper}")
+number_of_chars = len(proverb)
+print(f"\nnumber_of_chars: {number_of_chars}")
